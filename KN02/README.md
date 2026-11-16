@@ -11,4 +11,4 @@
 ![Vergleich](<./img/Screenshot 2026-11-16 101313.png>)
 
 **Erklärung:**  
-Der lokal aus `philippe_M346_1.pem` extrahierte öffentliche Schlüssel stimmt mit dem Eintrag in `~/.ssh/authorized_keys` auf dem Server überein. AWS hat diesen öffentlichen Schlüssel beim Erstellen der Instanz automatisch dort hinterlegt, damit der SSH-Dienst beim Verbindungsaufbau prüfen kann ob der Client im Besitz des passenden privaten Schlüssels (`philippe_M346_1.pem`) ist – während `philippe_M346_2.pem` abgelehnt wird, da dessen Public Key auf dem Server nicht autorisiert ist.
+Der Public Key aus meiner Datei philippe_M346_1.pem stimmt genau mit dem Schlüssel in ~/.ssh/authorized_keys auf dem Server überein. Weil AWS beim Start nur diesen ersten Schlüssel auf dem Server hinterlegt hat funktioniert der Login nur damit, während der zweite Schlüssel abgewiesen wird.
