@@ -1,13 +1,13 @@
 # B2
-![Getting Started](./img.jpg)
+![Instanz-Details](<./img/Screenshot 2026-11-16 085358.png>)
 * **Instanz-Name / ID:** KN02 (`i-0d2064d131b8297b6`)
 * **Betriebssystem:** Ubuntu Server 26.04 LTS (`ubuntu-resolute-26.04-amd64-server`)
 * **Instanz-Typ / CPUs:** `t3.micro` mit 2 vCPUs
 * **RAM:** 1 GiB Arbeitsspeicher
 * **Diskgrösse:** 8 GiB (EBS gp3 Root-Volume)
 * **Zugewiesenes Key Pair:** `philippe_M346_1`[cite: 4, 8, 9, 10]
-![Getting Started](./img.jpg)
-![Getting Started](./img.jpg)
+![SSH-Erfolg](<./img/Screenshot 2026-11-16 094542.png>)
+![Ablehnung](<./img/Screenshot 2026-11-16 100840.png>)
 ![Vergleich](<./img/Screenshot 2026-11-16 101313.png>)
 
 **Erklärung:**  
