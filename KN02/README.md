@@ -8,7 +8,7 @@
 * **Zugewiesenes Key Pair:** `philippe_M346_1`[cite: 4, 8, 9, 10]
 ![Getting Started](./img.jpg)
 ![Getting Started](./img.jpg)
-![Vergleich](./img/Screenshot 2026-11-16 101313.png)
+![Vergleich](<./img/Screenshot 2026-11-16 101313.png>)
 
 **Erklärung:**  
 Der lokal aus `philippe_M346_1.pem` extrahierte öffentliche Schlüssel stimmt mit dem Eintrag in `~/.ssh/authorized_keys` auf dem Server überein. AWS hat diesen öffentlichen Schlüssel beim Erstellen der Instanz automatisch dort hinterlegt, damit der SSH-Dienst beim Verbindungsaufbau prüfen kann ob der Client im Besitz des passenden privaten Schlüssels (`philippe_M346_1.pem`) ist – während `philippe_M346_2.pem` abgelehnt wird, da dessen Public Key auf dem Server nicht autorisiert ist.
