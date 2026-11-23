@@ -25,17 +25,16 @@ Ich habe jetzt eine Lösung gefunden. Ich habe es zuhause heruntergeladen.
   ![Meine Host-Ressourcen](img/hcs.png)
 
 * **Host von Lennis**
-  ![Host-Ressourcen Kollege](img/b_host_kollege.png)
+  ![Host-Ressourcen Kollege](img/Bild (1).png)
 
 ### 3. Overcommitment Tests 
 
-* **Meine Tests (`hcs`):** 16 logische Prozessoren, 16 GB RAM
+* **Meine Tests (`hcs`):** 14 logische Prozessoren, 16 GB RAM
   ![Meine Overcommitment-Tests](img/test.png)
 
-* **Tests von Lennis (`virtualbox`):**
-  * **CPU:** [Erfolg oder Fehlermeldung eintragen]
-  * **RAM:** [Erfolg oder Fehlermeldung eintragen]
-  ![Overcommitment-Tests Kollege](img/b_tests_kollege.png)
+* **Tests von Lennis (`virtualbox`):** 14 logische Prozessoren, 32 GB RAM
+  ![Overcommitment-Tests CPU Lennis](img/Bild.png)
+  ![Overcommitment-Tests RAM Lennis](img/Bild (2).png)
 
 ### 4. Erklärung 
 
