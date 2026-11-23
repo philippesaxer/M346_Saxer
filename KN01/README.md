@@ -25,7 +25,7 @@ Ich habe jetzt eine Lösung gefunden. Ich habe es zuhause heruntergeladen.
   ![Meine Host-Ressourcen](img/hcs.png)
 
 * **Host von Lennis**
-  ![Host-Ressourcen Kollege](img/Bild (1).png)
+  ![Host-Ressourcen Kollege](img/lennis_host.png)
 
 ### 3. Overcommitment Tests 
 
@@ -33,8 +33,8 @@ Ich habe jetzt eine Lösung gefunden. Ich habe es zuhause heruntergeladen.
   ![Meine Overcommitment-Tests](img/test.png)
 
 * **Tests von Lennis (`virtualbox`):** 14 logische Prozessoren, 32 GB RAM
-  ![Overcommitment-Tests CPU Lennis](img/Bild.png)
-  ![Overcommitment-Tests RAM Lennis](img/Bild (2).png)
+  ![Overcommitment-Tests CPU Lennis](img/lennis_cpu.png)
+  ![Overcommitment-Tests RAM Lennis](img/lennis_ram.png)
 
 ### 4. Erklärung 
 
