@@ -22,17 +22,15 @@ Ich habe jetzt eine Lösung gefunden. Ich habe es zuhause heruntergeladen.
 ### 2. Host-Ressourcen
 
 * **Mein Host (Philippe):** 
-  ![Meine Host-Ressourcen](img/hcs)
+  ![Meine Host-Ressourcen](img/hcs.png)
 
 * **Host von Lennis**
   ![Host-Ressourcen Kollege](img/b_host_kollege.png)
 
-### 3. Overcommitment-Tests (CPU & RAM)
+### 3. Overcommitment Tests 
 
-* **Meine Tests (`hcs`):**
-  * **CPU (`-c 20`):** Wurde beim Start mit `create_compute_system failed with 0x80004005` abgelehnt.
-  * **RAM (`-m 24G`):** Konnte gestartet werden; `free -h` zeigt ca. 24 GiB an.
-  ![Meine Overcommitment-Tests](img/test)
+* **Meine Tests (`hcs`):** 16 logische Prozessoren, 16 GB RAM
+  ![Meine Overcommitment-Tests](img/test.png)
 
 * **Tests von Lennis (`virtualbox`):**
   * **CPU:** [Erfolg oder Fehlermeldung eintragen]
